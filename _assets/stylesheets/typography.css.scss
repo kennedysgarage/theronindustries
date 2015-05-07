@@ -17,7 +17,9 @@ h2{
 }
 h3{
   display: block;
+  border-bottom: 1px dotted #ccc;
   font-size: 1.999em;
+  font-size: 18px;
   margin: 35px 0 15px;
 }
 h4{
@@ -39,12 +41,12 @@ ul, ol{
   margin: 0 0 20px;
 }
 li{
-  color: #656565;
+  color: #657380;
   font-family: 'ProximaNova', sans-serif;
   line-height: 1.5;
 }
 dl{
-  color: #656565;
+  color: #657380;
   font-family: 'ProximaNova', sans-serif;
   line-height: 1.5;
   margin: 0 0 10px;
