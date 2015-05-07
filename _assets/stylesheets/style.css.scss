@@ -1,0 +1,129 @@
+@import "compass";
+@import "reset.css.scss";
+@import "variables.css.scss";
+@import "fontface.css.scss";
+@import "ss-standard.css.scss";
+@import "ss-social-circle.css.scss";
+@import "ss-social-regular.css.scss";
+@import "typography.css.scss";
+@import "grid.css.scss";
+/* ========================================================= Main ===*/
+html, body{
+    background-color: #22252D;
+    color: #333;
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.45;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* ========================================================= Header ===*/
+header{
+  margin-bottom: 40px;
+  img{
+    display: block;
+    margin: 100px auto;
+  }
+}
+/* ------
+-- Nav --
+------ */
+nav{
+  ul{
+    li{
+      a{
+
+      }
+    }
+  }
+}
+/* ========================================================= Body ===*/
+.projects{
+  background-color: #151718;
+  background-color: #f8f8f8;
+  padding: 100px 0 60px;
+  h2{
+
+    display: inline-block;
+  }
+  p{
+    margin-bottom: 40px;
+  }
+  .row{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+  }
+  .tag{
+    float: right;
+    a{
+      background-color: #3498db;
+      border-radius: 3px;
+      color: #fff;
+      font-size: 12px;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      &:hover{
+        background-color: #2980b9;
+      }
+    }
+    span{
+      background-color: #e67e22;
+      border-radius: 3px;
+      color: #fff;
+      font-size: 12px;
+      padding: 5px 10px;
+      text-transform: uppercase;
+    }
+  }
+}
+/* ========================================================= Footer ===*/
+footer{
+  padding: 30px 0 20px;
+  .copy{
+    color: #4A4B4F;
+    // display: inline-block;
+    font-size: 14px;
+    text-height: 0;
+    margin: 0;
+    text-align: center;
+  }
+  ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    li{
+      margin: 0;
+      padding: 0;
+      a{
+        color: #4A4B4F;
+      }
+    }
+  }
+}
+/* ========================================================= Respond ===*/
+@media all and (min-width: 41em){
+  body{font-size: 1.125em;}
+  .container{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .row{
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .col-12 { width: 100%; }
+  .col-9 { width: 75%; }
+  .col-8 { width: 66.7%; }
+  .col-6 { width: 50%; }
+  .col-4 { width: 33.3%; }
+  .col-3 { width: 25%; }
+}
+@media all and (min-width: 960px){
+
+}
