@@ -4,15 +4,28 @@ author: Theron Industries
 email: hello@theronindustries.com
 url: http://theronindustries.com
 
-exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
+include: ['_pages']
+
+exclude:
+  - CNAME
+  - editorconfig.txt
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - RAKEFILE
+
+gems:
+  - jekyll-assets
+  - uglifier
+  - sass
 
 assets:
   dirname: assets
   baseurl: /assets/
-  sources:
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-  js_compressor: uglifier
-  css_compressor: sass
+  cache: false
+
+sources:
+  - _assets/fonts
+  - _assets/images
+  - _assets/javascripts
+  - _assets/stylesheets
